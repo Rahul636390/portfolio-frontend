@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000/contact"; // local
+const API_URL = "https://portfolio-backend-1-0mrt.onrender.com"; // local
 // const API_URL = "https://your-backend.onrender.com/contact"; // production
 
 const toggleBtn = document.getElementById("themeToggle");
@@ -44,3 +44,4 @@ form.addEventListener("submit", async (e) => {
         statusText.style.color = "red";
     }
 });
+
